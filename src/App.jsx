@@ -1,13 +1,13 @@
-import './App.css'
+import './App.css';
+import Registro from './components/Registro';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <Registro /> 
     </>
-  )
+  );
 }
 
-export default App
+export default App;
